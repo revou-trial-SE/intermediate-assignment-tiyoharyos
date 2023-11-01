@@ -1,0 +1,44 @@
+body{
+    flex: 1;
+    background-color: #1a1a1a;
+    color: #ffffff; /* Warna teks putih */
+}
+.hero-section {
+    padding-top: 5rem;
+    color: #ffffff; /* Warna teks putih */
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer {
+    flex-shrink: 0;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.card {
+    background-color: #232D3F;
+    color: #ffffff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-title {
+    color: #ffffff;
+}
+
+.card-text {
+    color: #ffffff; 
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
